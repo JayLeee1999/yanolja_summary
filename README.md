@@ -1,12 +1,17 @@
 # yanolja_summary
 야놀자 리뷰 요약
+#실행방법
+```
+- 백엔드 실행(fastapi)
+backend/python app_start.py
+```
 # 기본 설치 라이브러리
 ```
 pip install fastapi
 pip install sqlalchemy
 pip install streamlit==1.45.1
 ```
-#데이터 수집 및 전처리
+# 데이터 수집 및 전처리
 ```
 pip install openai==1.30.5
 pip install beautifulsoup4==4.12.3
@@ -17,4 +22,8 @@ pip install tqdm
 ```
 pip install pymysql
 pip install cryptography
+```
+# mysql 에 데이터 저장 시 라이브러리
+```
+pip install pandas
 ```
